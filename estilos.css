@@ -22,7 +22,7 @@
     color: white;
     /* font-family: cursive; */
     /* font-family: 'Courier New'; */
-    font-family: 'Courier New', 'Times New Roman', monospace;
+    font-family: cursive;
 }
 
 /* Tipogrofias */
@@ -30,3 +30,37 @@
 /* .titulo-articulo{
     font-family: cursive;
 } */
+
+/* Se desea tener el titulo de cada articulo con un tamaño de 40px y la descripcion y enlace en 18px */
+
+.titulo-articulo{
+    font-size: 40px;
+    font-style: italic;
+}
+
+.descripcion-articulo, .enlace-articulo{
+    /* Tamaños especificos */
+    /* font-size: 80px; */
+
+    /* tamaños Predifinidos */
+    /* font-size: xx-small; */
+    font-size: xx-large;
+}
+
+.descripcion-articulo{
+
+    /* Valores predefinidos */
+    font-weight: bolder;
+
+    /* Valores especificos */
+    /* font-weight: 600; */
+}
+
+.enlace-articulo{
+    
+    /* Valores predefinidos */
+    font-weight: lighter;
+    
+    /* Valores especificos */
+    /* font-weight: 600; */
+}
