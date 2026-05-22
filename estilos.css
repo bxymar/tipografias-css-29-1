@@ -1,0 +1,32 @@
+#seccion-uno{
+    /* background-color: rgb(200, 131, 90); */
+    /* Formato hexadecimal */
+    background-color: #f5dc23;
+}
+
+.articulo-seccion-uno{
+    background-color: blue;
+}
+
+/* Version extensa */
+/* .titulo-articulo{
+    color: white;
+}
+
+.descripcion-articulo{
+    color: white;
+} */
+
+/* Version abreviada: Este se usa cuando uno o varios elementos (ETIQUETAS) HTML comparten los mismos estilos */
+.titulo-articulo, .descripcion-articulo, .enlace-articulo{
+    color: white;
+    /* font-family: cursive; */
+    /* font-family: 'Courier New'; */
+    font-family: 'Courier New', 'Times New Roman', monospace;
+}
+
+/* Tipogrofias */
+/* ¿Como puedo cambiar la tipografia? */
+/* .titulo-articulo{
+    font-family: cursive;
+} */
